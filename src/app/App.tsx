@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import { BrowserRouter, Route, Routes } from "react-router";
 import { ScrollToLocation } from "./ScrollToLocation";
 import { ExperiencePage } from "./pages/ExperiencePage";
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="/experience" element={<ExperiencePage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
+      <Analytics />
     </BrowserRouter>
   );
 }
