@@ -2,6 +2,10 @@
 
 Personal portfolio for Jinni Li. The site is a client-rendered React application with data-driven project and experience content.
 
+## Live Website
+
+[jinni-li.vercel.app](https://jinni-li.vercel.app)
+
 ## Stack
 
 - React 18 and TypeScript
